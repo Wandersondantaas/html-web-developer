@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 01 - Primeiros passos com HTML</title>
+</head>
+<body>
+    <h1 id="módulo">Módulo 01 - Primeiros passos com HTML</h1>
+    <hr>
+    <h2>Instruções</h2>
+    <ul>
+        <li><a href="#história dos computadores">História dos computadores</a></li><br>
+        <li><a href="#comunicação client">Comunicação Client x Server</a></li>
+        <li><a href="#ferramentas">Ferramentas</a></li>
+        <li><a href="#tags e atributos">Tags e atributos de tags</a></li>
+        <li><a href="#lista">Listas ordenadas e não ordenadas</a></li>
+        <li><a href="#links">Links de referências</a></li>
+    </ul>
+    <h2 id="história dos computadores">História dos computadores</h2>
+    <small><a href="#módulo">voltar ao topo</a></small>
+    <p>O computador é um equipamento que a maioria das pessoas utiliza. Seja para trabalho ou lazer, ele está presente em grande parte das residências e dos estabelecimentos. <br> No entanto, você conhece a sua trajetória? Então, continue a leitura para saber mais sobre a evolução dos computadores.Não é de hoje que vemos a evolução dos computadores, <br> desde o seu tamanho até mesmo outras características que vão se diferenciando entre si ao longo dos anos. Hoje em dia, diversos aparelhos cabem nas nossas mãos e, independente de <br> suas dimensões, oferecem-nos uma infinidade de benefícios.</p>
+    <ul>
+    <li>Em 1944 foi criado o <u><strong>Harvard Mark 1</strong></u>, ele era um computador elétro mecânico, ele era basicamente uma máquina de cálculo, muito grande, baseada em válvulas, processos mecânicos para realizar diversos tipos de cálculos.</li> 
+    <li>1946 foi criado o <strong><u>Colossus</u></strong>, era um computador para cálculos, para cripto análises, criado pela Alemanha. Esse computador ajudou muito a Alemanha para cálculos relacionados para guerra.</li> 
+    <li>O computador foi criado em 1946 e se chamava <u><strong>Eletronic Numerical Integrator and Computer</strong></u> — <u><strong>ENIAC</strong></u>.</li> 
+    </ul>
+    <h2 id="comunicação cliente">Comunicação Client x Server</h2>
+    <small><a href="#módulo">voltar ao topo</a></small>
+    <p>O que é um Client-side e Server-side? Existem dois tipos de linguagens para desenvolvermos para internet: as linguagens client-side e as linguagens server-side. <br> Você pode ver estes nomes meio diferentes em outros lugares como por exemplo, front-end, se referindo às linguagens client-side e back-end se referindo às linguagens server-side. <br> Não se preocupe, são a mesma coisa. Vou estar elaborando um texto, para que você possa entender melhor, vamos usar client-side e server-side.</p>
+    <p>As linguagens server-side são linguagens que o <strong><u>SERVIDOR</u></strong> entende. Isso quer dizer que vai escrever um código onde o servidor vai processá-lo e então vai mandar para o seu navegador a resposta. <br>
+    As linguagens client-side são linguagens onde apenas o seu <strong><u>NAVEGADOR</u></strong> vai entender. Quem vai processar essa linguagem não é o servidor, mas o seu browser.</p>
+    
+    <h2 id="ferramentas">Ferramentas Utilizadas</h2>
+    <small><a href="#módulo">voltar ao topo</a></small>
+    <p>As ferramentas que vamos utilizar neste curso, é o <strong><u>Visual Studio Code</u></strong>, uma ferramenta gratuita, de fácil acesso, e bem utilizada na atualidade. <br>
+    Para estar fazendo o download do Visual Studio Code, você pode estar clicando <a href="https://code.visualstudio.com/download" target="_blank" type="external"><mark><abbr title="Clique aqui para baixar o Visual Studio Code">aqui</mark></abbr></a>. Dentro deste link, você vai estar sendo direcionado para a página principal da ferramenta, onde na mesma vão te dar <br> <i><u>3 opções de Download que são:</u></i></p>
+    <ol>
+        <li>Windows</li>
+        <li>Linux</li>
+        <li>Mac</li>
+    </ol>
+    <p>Agora é só estar escolhendo a opção mais adequada para você, dependendo do sistema operacional do seu computador.</p>
+    
+    <p>Uma outra ferramenta que vai te ajudar muito, é o <strong><u>inspetor de elementos</u></strong>, que é a ferramenta do desenvolvedor. Essa ferramenta é utilizada no navegador, <br> quem oferece essa ferramenta é o nosso navegador, vai depender do navegador que você vai estar utilizando. Abaixo vou estar deixando o link para download de 3 tipos de navegadores.</p>
+    <ol>
+        <li><a href="https://www.google.pt/intl/pt-PT/chrome/?brand=YTUH&gclid=CjwKCAjwp6CkBhB_EiwAlQVyxb-0z3EQY4sUHfAwe-Wr_kTqOTfbyh_2u_-iqpCEjk_bDI4MZFdeMxoC1I4QAvD_BwE&gclsrc=aw.ds" type="_blank" type="external">Google Chrome</a></li>
+        <li><a href="https://www.mozilla.org/pt-PT/firefox/new/" target="_blank" type="external">Mozilla Firefox</a></li>
+        <li><a href="https://www.opera.com/pt/download" target="_blank" type="external">Opera</a></li>
+    </ol>
+    <p>No Google Chrome para abrir essa ferramenta do desenvolvedor, basta eu apertar o <strong><u>F12</u></strong> do meu teclado, ou estar abrindo ele no canto superior direito do navegador, clico nos 3 pontos, vou em mais ferramentas, <br>e depois vou em ferramentas do programador. Nesta ferramenta, você tem vários tipos de recursos para estudarmos como uma página foi feita de fato, na aba Elements, ela tem o HTML da página que você está <br> olhando, você pode ver como foi feito algo no site com alguns cliques. É uma ferramenta que tem muito a te ensinar, a tirar suas dúvidas e curiosidades sobre a montagem de algum site.</p>
+    
+    <h2 id="tags e atributos">Tags e Atributos de Tags</h2>
+    <small><a href="#módulo">voltar ao topo</a></small>
+    <p>As tags são usadas para informar ao navegador a estrutura do site. Ou seja: quando se escreve um código em HTML, as tags serão interpretadas pelo navegador, produzindo assim a estrutura e o conteúdo visual da página. <br>
+    A principal característica das tags é estarem sempre dentro dos sinais de chevron (sinal de “maior que” e “menor que”), ou seja: &lt; >.
+        
+    As tags HTML são divididas em dois tipos: as que precisam de fechamento e as que não <br> precisam de fechamento. As tags que precisam de fechamento possuem a sintaxe &lt;tag> &lt;/tag>, já as que não precisam de fechamento possuem como estrutura &lt;tag/>.    
+    Além disso, uma mesma tag pode receber um ou mais <br>
+    atributos, que possuirá um valor que modifica sua estrutura ou funcionalidade.</p>
+    <h2>Estruturas</h2>
+    <p>Os atributos são usados para personalizar as tags, modificando sua estrutura ou funcionalidade. Igualmente, os atributos são utilizados para atribuir uma classe ou id a um elemento. A maioria das tags tem seus próprios atributos. <br> 
+    Contudo, existem alguns atributos genéricos que podem ser utilizados na maioria das tags HTML, vamos estudá-los:</p>
+    <ul>
+    <strong>
+        <li>class=”escrever“
+    </strong> – Atribui uma classe ao elemento (uma classe pode ser utilizada para um ou mais elementos);</li>
+    <strong>
+        <li>id=”escrever“
+    </strong> – Atribui um id ao elemento (um id deve ser único, ou seja atribuído a um único elemento);</li>
+    <strong>
+        <li>style=”escrever”
+    </strong> – Permite incluir elementos CSS (estilos) dentro da tag;</li>
+    <strong>
+        <li>lang=”escrever”
+    </strong> – Define o idioma principal do elemento;</li>
+    <strong>
+        <li>title=”escrever”
+    </strong> – Define o título do elemento;</li>
+    <strong>
+        <li>alt=”escrever
+    </strong>” – Define um texto alternativo e, por isso, é muito utilizado em imagens, auxilia nas práticas de SEO;</li>
+    <strong>
+        <li>hidden
+    </strong> – Oculta o elemento;</li>
+    <strong>
+        <li>align=”escrever”
+    </strong> – Permite definir o padrão de alinhamento desse elemento, como por exemplo: right, center, left e justify;</li>
+    <strong>
+        <li>width=”escrever”
+    </strong> – Define uma largura para o elemento;</li>
+    <strong>
+        <li>height=”escrever”
+    </strong> – Define uma altura para o elemento.</li>
+    </ul>
+    <p>Essas são os principais atributos, porém existem diversos outros que devem ser estudados e podem ser utilizados no seu código.</p>
+    <h2>Estrutura básica de um documento HTML</h2>
+    <p>Um documento HTML recebe algumas tags que formam a sua estrutura básica. No HTML5, o documento padrão recebe a seguinte estrutura: <br>
+    <pre>
+    &lt;!DOCTYPE html>
+    &lt;html>
+    &lt;head>
+        &lt;title>Título da página</title>
+        &lt;meta charset="utf-8"/>
+    &lt;/head>
+    &lt;body>
+
+    &lt;/body>
+    &lt;/html>
+    </pre>
+    Em primeiro lugar, vamos agora entender para que serve cada uma dessas tags:</p>
+        <ul>
+    <strong>
+        <li>&lt;!DOCTYPE html>
+    </strong> – A tag !DOCTYPE informa ao navegador a versão do HTML que está sendo utilizada no documento. Por exemplo: no HTML5, basta incluir !DOCTYPE html, e assim o navegador já saberá que se trata de um documento na versão HTML5.</li>
+    <strong>
+        <li>&lt;html>&lt;/html>
+    </strong> – Esta tag é o elemento básico da estrutura do HTML. Assim sendo, ela conterá todos os elementos do seu documento. Todo documento HTML deve iniciar e finalizar com essa tag;</li>
+    <strong>
+        <li>&lt;head>&lt;/head>
+    </strong> – Essa tag delimita o cabeçalho do documento. Não possui nenhum valor visível, porém é capaz de transmitir ao navegador diversas informações muito úteis e essenciais a uma boa apresentação do seu documento HTML.</li>
+    <strong>
+        <li>&lt;title>&lt;/title>
+    </strong> – Essa tag define o título da sua página, o nome que aparecerá na sua aba, janela ou guia. Por esta razão, a tag >title> é de grande importância para o SEO.</li>
+    <strong>
+        <li>&lt;meta/>
+    </strong> – Essa tag permite inserir metadados ao seu documento, no caso acima, a informação charset=”UTF-8″, que garante a compatibilidade do código com os caracteres de padrão latino americano;</li>
+    <strong>
+        <li>&lt;body>&lt;/body>
+    </strong> – Finalmente, a tag que representa o corpo do documento. Em síntese, é nessa tag que todos os elementos visíveis do seu site devem ser inseridos.</li><br>
+    </ul>
+    
+    <h2>Tags HTML de título</h2>
+    <p>As tags de título possuem valor semântico, variando entre seis níveis hierárquicos. Para fins de otimização SEO é importante entender como funcionam, e fazer uma utilização adequada. <br> Para definir títulos, utilizamos as tags:</p>
+
+    <ul>
+        
+            <strong>&lt;h1>&lt;/h1></strong> - Título de maior valor hierárquico <br>
+            <strong>&lt;h2>&lt;/h2></strong> <br>
+            <strong>&lt;h3>&lt;/h3></strong> <br>
+            <strong>&lt;h4>&lt;/h4></strong> <br>
+            <strong>&lt;h5>&lt;/h5></strong> <br>
+            <strong>&lt;h6>&lt;/h6></strong> - Título de menor valor hierárquico <br>
+    </ul>
+    
+    <p>Conforme dito anteriormente, a distribuição de título interferem no otimização do SEO de uma página.  Com isso, uma página contendo apenas h1 não seria bem vista pelos mecanismos de busca. <br> Portanto, é importante dividir os títulos deixando o h1 apenas para o título principal, h2 ou h3 para títulos das seções e h4 a h6 para subtítulos ou títulos que possuam baixo valor hierárquico em relação aos demais.</p>
+
+    <h2>Tags HTML de texto</h2>
+    <p>As tags de texto definem textos, estilos de fonte, parágrafos, spans, quebras de linhas, etc. Vamos conhecê-las:</p>
+
+    
+        <ul>
+            <strong>&lt;p>&lt;/p></strong> - Principal tag de texto, compõe um parágrafo; <br>
+            <strong>&lt;pre>&lt;/pre></strong> – Tag utilizada para representar texto pré-formatado. Muito utilizada para inserir códigos;<br>
+            <strong>&lt;b>&lt;/b></strong> – Transforma o conteúdo em negrito;<br>
+            <strong>&lt;i>&lt;/i></strong> – Transforma o conteúdo em itálico;<br>
+            <strong><strong>&lt;br/></strong> – Essa tag não necessita de fechamento, ela executa a função de quebra de linha. <br></strong>
+            <strong>&lt;hr/></strong> – Essa tag não necessita de fechamento, ela forma uma linha horizontal. <br>
+        </ul>
+    
+    
+    <h2>Tag de link HTML</h2>
+    <p>
+        A tag de link HTML é responsável que faz a ligação entre um documento e outro, sendo ele da mesma página ou de uma página de outro domínio. Esse elemento garantiu que o HTML se destacasse, <br> e moldou a internet da forma que ela é hoje! Portanto, é o principal fundamento que forma a web.
+        Para realizar um link, podemos chamar as tags <a></a> com o atributo href. Por exemplo, caso você queira criar <br> um link no seu texto que redirecione à página inicial do google:
+    </p>
+
+    <p>Para acessar o <a href="https://web.dio.me/" target="_blank" type="external">Dio</a> &lt;a href="https://web.dio.me/">clique aqui.&lt;/a></p>
+
+    <h2 id="lista">Lista Ordenada e lista não-ordenada</h2>
+    <small><a href="#módulo">voltar ao topo</a></small>
+    <p>Compare as duas listas a seguir:</p>
+    <ol>
+        <li>Item número um.</li>
+        <li>Item número dois.</li>
+        <li>Item número três.</li>
+    </ol>
+    <ul>
+        <li>Primeiro item.</li>
+        <li>Segundo item.</li>
+        <li>Terceiro item.</li>
+    </ul>
+    
+        <p><mark>A principal diferença entre a lista ordenada e a lista não-ordenada está na maneira com que os itens de cada lista são apresentados - a lista ordenada enumera os elementos; a lista não-ordenada coloca marcadores antes de cada elemento.</mark></p>
+
+    <h3>Lista ordenada</h3>
+    <p>Estude o exemplo:</p>
+    
+    <pre>
+&lt;ol>
+    &lt;li>Item número um.&lt;/li>
+    &lt;li>Item número dois.&lt;/li>
+    &lt;li>Item número três.&lt;/li>
+&lt;/ol>    
+   </pre>
+   <p>Uma <strong>lista ordenada</strong> é delimitada pelas etiquetas <strong>&lt;ol></strong> e <strong>&lt;/ol></strong> (<strong>O</strong>rdered <strong>L</strong>ist). Cada item da lista é delimitado pelas etiquetas <strong>&lt;li></strong> e <strong>&lt;/li></strong> (<strong>L</strong>ist <strong>I</strong>tem).</p>
+   <hr>
+
+   <h3>Lista não ordenada</h3>
+   <pre>
+&lt;ul>
+    &lt;li>Primeiro item.&lt;/li>
+    &lt;li>Segundo item.&lt;/li>
+    &lt;li>Terceiro item.&lt;/li>
+&lt;/ul>    
+   </pre>
+   <p>A estrutura da <strong>lista não-ordenada</strong> é semelhante a da lista ordenada - porém, ao invés de ser construída com o elemento OL, é construída com o elemento UL (<strong>U</strong>nordered <strong>L</strong>ist).</p>
+   <hr>
+
+    <h2 id="links">Links de referências</h2>
+    <small><a href="#módulo">voltar ao topo</a></small>
+   <ul>
+    <li><a href="https://www.dio.me/">Dio.me</a></li>
+    <li><a href="https://www.w3schools.com/html/">W3Schools</a></li>
+   </ul>
+</body>
+</html>
