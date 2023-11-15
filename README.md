@@ -1,6 +1,4 @@
-##html-web-developer
-[Clique aqui para abrir o projeto](https://wandersondantaas.github.io/html-web-developer/)https://wandersondantaas.github.io/html-web-developer/)
-###
+### [Link para a Projeto](https://wandersondantaas.github.io/FrontEndSenai2023/Projeto02/index.html)
 
 Esse foi o projeto que aprendi a utilizar as tags ensinadas no curso. <br>
 
